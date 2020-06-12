@@ -3,7 +3,7 @@
 <!-- REDUX FEEDBACK LOOP -->
 
 # Base Mode
-- [] install redux and create a reduxStore
+- [x] install redux and create a reduxStore
 - [] install react-router and apply Router into app, routing first to How are you feeling today as an exact path with a blank Route.
 - [] create a multi-part form with 4 views for the form parts.
     - View 1: How are you feeling today, with a dropdown selection of 1-5 as a score and a next button that brings you to the the understanding view. Only allow moving onto the next step if there was input.
