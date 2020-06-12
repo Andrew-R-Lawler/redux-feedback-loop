@@ -1,5 +1,8 @@
 # Project Name
 
+<!-- REDUX FEEDBACK LOOP -->
+
+# Base Mode
 - [] install redux and create a reduxStore
 - [] install react-router and apply Router into app, routing first to How are you feeling today as an exact path with a blank Route.
 - [] create a multi-part form with 4 views for the form parts.
