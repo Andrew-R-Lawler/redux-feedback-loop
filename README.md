@@ -14,7 +14,7 @@
 
 # Stretch Goals
 
-- [] Add a previous page button to each page that brings you back to the step before.
+- [x] Add a previous page button to each page that brings you back to the step before.
 - [] Implement Material UI and improve styling
 - [] Display feedback newest to oldest on /Admin route
 - [] Create a delete button that prompts for confirmation prior to sending a DELETE request

@@ -27,12 +27,18 @@ class Comments extends Component {
         }
     }
 
+    previousPage = () => {
+        this.props.history.push('/Supported')
+    }
+
     render() {
         return (
             <div>
                 <textarea value = {this.state.value} onChange = {this.handleChange} placeholder = "Tell us what you're feeling"></textarea>
                 <br/>
                 <button onClick={this.handleSubmit}>Next</button>
+                <br />
+                <button onClick={this.previousPage}>Previous Page</button>
             </div>
         )
     }

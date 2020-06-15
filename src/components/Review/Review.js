@@ -28,6 +28,9 @@ class Review extends Component {
             })
     }
 
+    previousPage = () => {
+        this.props.history.push('/Comments')
+    }
     render() {
         return (
             <div>
@@ -38,6 +41,8 @@ class Review extends Component {
                     <p>Support: {this.props.reduxState.supportReducer}</p>
                     <p>Comments: {this.props.reduxState.commentReducer}</p>
                     <button onClick = {this.handleSubmit}>SUBMIT</button>
+                <br />
+                <button onClick={this.previousPage}>Previous Page</button>
             </div>
         )
     }

@@ -27,6 +27,10 @@ class Supported extends Component {
         }
     }
 
+    previousPage = () => {
+        this.props.history.push('/Understanding')
+    }
+
     render() {
         return (
             <div>
@@ -40,6 +44,8 @@ class Supported extends Component {
                     <option value="5">5</option>
                 </select>
                 <button onClick={this.handleSubmit}>Next</button>
+                <br/>
+                <button onClick={this.previousPage}>Previous Page</button>
             </div>
         )
     }
