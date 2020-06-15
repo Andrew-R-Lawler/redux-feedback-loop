@@ -12,6 +12,15 @@
     x - View 4: Comments! A text area for any comments and a next button that brings you to a review view. Only allow moving onto the next step if there was input.
     x - View 5: Review the feedback! Look over the information in the feedback form. include a submit button that submits the data into the database. On successful post route to a page that Thanks survey taker and prompts a button to leave more feedback clearing the form and starting from the beginning
 
+# Stretch Goals
+
+- [] Add a previous page button to each page that brings you back to the step before.
+- [] Implement Material UI and improve styling
+- [] Display feedback newest to oldest on /Admin route
+- [] Create a delete button that prompts for confirmation prior to sending a DELETE request
+- [] Add the ability to flag an existing feedback entry for review
+- [] Deploy the app on Heroku
+
 ## Description
 
 Your project description goes here. What problem did you solve? How did you solve it?
