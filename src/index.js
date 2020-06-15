@@ -10,7 +10,7 @@ import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 
 // Reducers
-const feelingReducer = (state = {}, action) => {
+const feelingReducer = (state = '', action) => {
     switch(action.type) {
         case 'FEELING_VALUE':
             return action.payload;
@@ -19,7 +19,7 @@ const feelingReducer = (state = {}, action) => {
     }
 }
 
-const understandingReducer = (state = {}, action) => {
+const understandingReducer = (state = '', action) => {
     switch (action.type) {
         case 'UNDERSTANDING_VALUE':
             return action.payload;
@@ -28,7 +28,7 @@ const understandingReducer = (state = {}, action) => {
     }
 }
 
-const supportReducer = (state = {}, action) => {
+const supportReducer = (state = '', action) => {
     switch (action.type) {
         case 'SUPPORT_VALUE':
             return action.payload;
@@ -37,7 +37,7 @@ const supportReducer = (state = {}, action) => {
     }
 }
 
-const commentReducer = (state = {}, action) => {
+const commentReducer = (state = '', action) => {
     switch (action.type) {
         case 'COMMENT_VALUE':
             return action.payload;

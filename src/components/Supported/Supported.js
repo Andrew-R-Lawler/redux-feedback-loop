@@ -17,7 +17,7 @@ class Supported extends Component {
         }
         else {
             this.props.dispatch({
-                type: 'SUPPORTED_VALUE',
+                type: 'SUPPORT_VALUE',
                 payload: this.state.value
             })
             this.setState({
